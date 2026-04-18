@@ -1,0 +1,7 @@
+services:
+  plato-demo:
+    build: .
+    ports:
+      - "4040:4040"
+    environment:
+      - PLATO_PORT=4040
